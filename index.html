@@ -1,77 +1,136 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sponsorship Guide | Small to Big Brands</title>
-  <link rel="stylesheet" href="css/style.css">
+  <title>Sponsorship Guide | Grow with Brands</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:#f4f6fb;
+      color:#222;
+    }
+    header{
+      background:linear-gradient(135deg,#0a2540,#133a63);
+      color:#fff;
+      padding:60px 20px;
+      text-align:center;
+    }
+    header h1{font-size:2.5rem;margin-bottom:10px;}
+    header p{font-size:1.1rem;opacity:.9}
+    nav{
+      background:#fff;
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:15px;
+      box-shadow:0 2px 10px rgba(0,0,0,.08)
+    }
+    nav a{
+      text-decoration:none;
+      color:#0a2540;
+      font-weight:600;
+    }
+    section{
+      padding:60px 20px;
+      max-width:1100px;
+      margin:auto
+    }
+    h2{text-align:center;color:#0a2540;margin-bottom:40px}
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:25px
+    }
+    .card{
+      background:#fff;
+      padding:25px;
+      border-radius:14px;
+      box-shadow:0 10px 25px rgba(0,0,0,.08);
+      transition:.3s
+    }
+    .card:hover{transform:translateY(-6px)}
+    .card h3{color:#133a63}
+    .steps{
+      background:#fff;
+      border-radius:14px;
+      padding:30px;
+      box-shadow:0 10px 25px rgba(0,0,0,.08)
+    }
+    .steps li{margin-bottom:12px}
+    .cta{
+      background:linear-gradient(135deg,#133a63,#0a2540);
+      color:#fff;
+      text-align:center;
+      padding:60px 20px
+    }
+    .cta h2{color:#fff}
+    .cta button{
+      margin-top:20px;
+      background:#fff;
+      color:#0a2540;
+      border:none;
+      padding:14px 28px;
+      font-size:1rem;
+      border-radius:30px;
+      cursor:pointer;
+      font-weight:600
+    }
+    footer{
+      background:#0a2540;
+      color:#fff;
+      text-align:center;
+      padding:20px;
+      font-size:.9rem
+    }
+  </style>
 </head>
-<body>
-
-<header>
-  <h1>Sponsorship Guide</h1>
-  <p>Small se lekar Big Brand Sponsorship ka complete roadmap</p>
-</header>
-
-<nav>
+<body><header>
+  <h1>Get Brand Sponsorship</h1>
+  <p>Small creators se lekar big brands tak – complete sponsorship guide</p>
+</header><nav>
   <a href="#types">Types</a>
-  <a href="#how">How To Get</a>
+  <a href="#how">Process</a>
   <a href="#eligibility">Eligibility</a>
-  <a href="#templates">Templates</a>
-</nav>
-
-<section id="types">
-  <h2>Sponsorship Types</h2>
+</nav><section id="types">
+  <h2>Sponsorship Levels</h2>
   <div class="cards">
     <div class="card">
       <h3>Small Sponsorship</h3>
-      <p>₹1,000 – ₹50,000</p>
-      <p>Local brands, small creators, barter deals. Beginners ke liye best.</p>
+      <p><b>₹1k – ₹50k</b></p>
+      <p>Beginners, nano creators, local brands ke liye best.</p>
     </div>
     <div class="card">
       <h3>Medium Sponsorship</h3>
-      <p>₹50,000 – ₹5,00,000</p>
-      <p>Growing brands, events, fitness & gaming creators.</p>
+      <p><b>₹50k – ₹5L</b></p>
+      <p>Growing influencers, events aur startups ke liye.</p>
     </div>
     <div class="card">
       <h3>Big Sponsorship</h3>
-      <p>₹5,00,000 – ₹50,00,000+</p>
-      <p>National brands, big influencers, athletes & large events.</p>
+      <p><b>₹5L – ₹50L+</b></p>
+      <p>Top creators, athletes aur national brands ke liye.</p>
     </div>
   </div>
-</section>
-
-<section id="how">
-  <h2>Sponsorship Kaise Milegi?</h2>
-  <ol class="steps">
-    <li>Apni category clear karo (Creator, Event, Athlete)</li>
-    <li>Profile / channel professionally ready karo</li>
-    <li>Simple sponsorship proposal banao</li>
-    <li>Brands ko email ya Instagram se approach karo</li>
-    <li>Deal & payment terms clear karo</li>
-  </ol>
-</section>
-
-<section id="eligibility">
-  <h2>Eligibility Check (Basic)</h2>
-  <p>Approx idea ke liye niche button dabao 👇</p>
-  <button onclick="checkEligibility()">Check Eligibility</button>
-  <p id="result"></p>
-</section>
-
-<section id="templates">
-  <h2>Free Templates</h2>
-  <ul>
-    <li>Sponsorship Proposal Format (PDF)</li>
-    <li>Brand Email Pitch Sample</li>
-    <li>Media Kit Structure</li>
-  </ul>
-</section>
-
-<footer>
-  <p>© 2026 Sponsorship Guide | Learn • Prepare • Apply</p>
-</footer>
-
-<script src="js/main.js"></script>
-</body>
+</section><section id="how">
+  <h2>How Sponsorship Works</h2>
+  <div class="steps">
+    <ol>
+      <li>Apni niche aur audience samjho</li>
+      <li>Professional profile & media kit banao</li>
+      <li>Strong proposal likho</li>
+      <li>Brands ko email / DM karo</li>
+      <li>Deal finalize karo</li>
+    </ol>
+  </div>
+</section><section id="eligibility">
+  <h2>Eligibility (Basic Idea)</h2>
+  <p style="text-align:center">Followers, engagement aur niche ke basis par sponsorship milti hai.</p>
+</section><section class="cta">
+  <h2>Ready to Get Sponsorship?</h2>
+  <p>Step-by-step guides aur templates ke liye explore karo</p>
+  <button>Explore Now</button>
+</section><footer>
+  © 2026 Sponsorship Guide | Built for Creators
+</footer></body>
 </html>
